@@ -1,1 +1,14 @@
-console.log("Hello World")
+// let nome = "Guilherme"
+// let idade = 24
+// let falsetrue = true
+
+let nome = "joão"
+let sobrenome = " Bonete"
+let nometotal = nome+sobrenome
+
+document.write(nometotal)
+let num1 = 23
+let num2 = 12
+let resultado = num1 + num2
+
+document.write(resultado)
