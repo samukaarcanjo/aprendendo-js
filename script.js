@@ -1,15 +1,14 @@
-// tipo de variaveis
-// var , let , const
+// Contador de vogais
 
-// function nomeDafuncao() {
-//     console.log("Hello World")
-// }
-
-// nomeDafuncao()
-// Exercicio com for 
-let nome = "Samuel";
-let nome_contrario = "";
-for (let i = nome.length - 1 ; i >= 0 ; i--){
-    nome_contrario += nome[i];
+let palavra = "emanuel"
+let contador = 0
+for (let i = 0; i <= palavra.length - 1; i++) {
+    if (palavra[i] == "a" || 
+        palavra[i] == "e" ||
+        palavra[i] == "i" || 
+        palavra[i] == "o" || 
+        palavra[i] == "u") {
+        contador ++
+    }
 }
-console.log(nome_contrario)
+console.log(`A palavra ${palavra} tem ${contador} vogais`)
