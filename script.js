@@ -1,11 +1,8 @@
 // Contador letras especificas
 
-let palavra = "banana"
-let contador = 0
-let letra = "a"
-for (let i = 0 ; i <= palavra.length - 1; i ++ ){
-    if (palavra[i] == letra) {
-        contador ++
-    }
+let numeros = [10,20,30,40]
+let soma = 0
+for (let i = 0 ; i <= numeros.length - 1; i ++){
+    soma += numeros[i]
 }
-console.log(`Essa palavra tem ${contador} letras A`)
+console.log(soma)
