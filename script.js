@@ -1,14 +1,11 @@
-// Contador de vogais
+// Contador letras especificas
 
-let palavra = "emanuel"
+let palavra = "banana"
 let contador = 0
-for (let i = 0; i <= palavra.length - 1; i++) {
-    if (palavra[i] == "a" || 
-        palavra[i] == "e" ||
-        palavra[i] == "i" || 
-        palavra[i] == "o" || 
-        palavra[i] == "u") {
+let letra = "a"
+for (let i = 0 ; i <= palavra.length - 1; i ++ ){
+    if (palavra[i] == letra) {
         contador ++
     }
 }
-console.log(`A palavra ${palavra} tem ${contador} vogais`)
+console.log(`Essa palavra tem ${contador} letras A`)
