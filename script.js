@@ -1,11 +1,12 @@
-// Descobrir menor numero da array
+// Descobrir media dos numeros
+let numero = [10,20,30,40,50,60,70,80,90]
+let soma_numeros = 0
 
-let numeros = [101,20,30,40,-5]
-let menor_numero = numeros[0]
-
-for (let i = 0 ; i <= numeros.length - 1; i ++){
-    if (numeros[i] < menor_numero ){
-        menor_numero = numeros[i]
-    }
+for (let i = 0 ; i <= numero.length - 1; i ++){
+    soma_numeros += numero[i]
 }
-console.log(menor_numero)
+
+let media = soma_numeros / numero.length
+
+console.log(media)
+
