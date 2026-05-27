@@ -1,12 +1,4 @@
-// Descobrir media dos numeros
-let numero = [10,20,30,40,50,60,70,80,90]
-let soma_numeros = 0
+// Filtrar dados. Criar uma array que contenha alguns numeros e filtras apenas os pares.
 
-for (let i = 0 ; i <= numero.length - 1; i ++){
-    soma_numeros += numero[i]
-}
-
-let media = soma_numeros / numero.length
-
-console.log(media)
+let numeros = [10,11,10,20,11,20,500,34]
 
