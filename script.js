@@ -1,16 +1,17 @@
-// criar função que diz o número maior da array
+// criar uma arrow function
 
-let numeros = [10,20,322,100,50]
+const soma = (a,b) => a + b
 
-function maiorNumero(array) {
-    let maior = array[0]
-    for (let i = 0; i <= array.length -1; i++) {
-        if (array[i] > maior){
-            maior = array[i]
-        }
+console.log(soma(10,20))
+
+const parOuImpar = (a) => {
+    if (a % 2 === 0) {
+        return "Par"
+    }else {
+        return "Impar"
     }
-    return maior
 }
 
-let resultado = maiorNumero(numeros)
-console.log(resultado)
+const parOuImpar = (a) =>
+    a % 2 === 0 ? "par" : "impar"
+
