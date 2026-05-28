@@ -1,9 +1,9 @@
-// Usando Filter()
+// Usando reduce()
 
-let numeros = [1,2,3,4,5]
+let numeros = [5,10,15]
 
-let pares = numeros.filter((numero) => {
-    return numero % 2 != 0
-})
+let somaTodos = numeros.reduce((somatodos,numero) => {
+    return somatodos + numero
+},0)
 
-console.log(pares)
+console.log(somaTodos)
