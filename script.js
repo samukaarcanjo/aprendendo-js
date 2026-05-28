@@ -1,17 +1,9 @@
-// criar uma arrow function
+// Usando Map()
 
-const soma = (a,b) => a + b
+let numeros = [1,2,3,4,5]
 
-console.log(soma(10,20))
+let aoQuadrado = numeros.map((numero) => {
+    return numero * numero
+})
 
-const parOuImpar = (a) => {
-    if (a % 2 === 0) {
-        return "Par"
-    }else {
-        return "Impar"
-    }
-}
-
-const parOuImpar = (a) =>
-    a % 2 === 0 ? "par" : "impar"
-
+console.log(aoQuadrado)
