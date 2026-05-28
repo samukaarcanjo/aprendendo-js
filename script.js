@@ -1,8 +1,13 @@
-// criar função de soma
+// criar função que identifica par ou impar
 
-function soma(a,b) {
-    return a + b
+function parOuImpar(a) {
+    if (a % 2 === 0) {
+        return "Par"
+    }else {
+        return "Impar"
+    }
 }
 
-let resultado = soma(40,20)
+let resultado = parOuImpar(111)
+
 console.log(resultado)
