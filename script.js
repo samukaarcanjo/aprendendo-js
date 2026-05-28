@@ -1,13 +1,10 @@
-// objetos em arrays
+// find()
 
 let usuarios = [
-    { nome : "Samuel", idade : 22},
-    { nome : 'Guilherme', idade : 25},
-    { nome : "Nathaly", idade : 20}
+    { nome: "Samuel", idade: 22 },
+    { nome: "Lucas", idade: 17 },
+    { nome: "Ana", idade: 25 }
 ]
 
-let nomes = usuarios.map((usuario) => {
-    return usuario.nome
-})
-
-console.log(nomes)
+let nome = usuarios.find(usuario => usuario.nome === "Ana")
+console.log(nome.idade)
