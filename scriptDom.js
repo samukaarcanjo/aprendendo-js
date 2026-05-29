@@ -1,5 +1,9 @@
-let titulo = document.getElementById("titulo")
+let nome = document.getElementById("nome")
+
 let botao = document.getElementById("botao")
+let titulo = document.getElementById("titulo")
+
 botao.addEventListener("click", () => {
-    titulo.innerText = "Olá Amigão. Deus me fez rei dos sites. E você pode ser tambêm "
-}) 
+    console.log(nome.value)
+    titulo.innerText = `Olá ${nome.value}`
+})
