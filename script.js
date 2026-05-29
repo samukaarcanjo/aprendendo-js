@@ -14,3 +14,4 @@ let precoTot = pedidos.reduce((somatodos,produto) => {
 console.log(precoTot)
 // Resultado esperado:
 // 3870
+
